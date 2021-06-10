@@ -17,13 +17,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/addressbook"
-	"github.com/ethersphere/bee/pkg/bzz"
-	"github.com/ethersphere/bee/pkg/hive/pb"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/addressbook"
+	"github.com/wssll789/bee/pkg/bzz"
+	"github.com/wssll789/bee/pkg/hive/pb"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/p2p"
+	"github.com/wssll789/bee/pkg/p2p/protobuf"
+	"github.com/wssll789/bee/pkg/swarm"
 
 	"golang.org/x/time/rate"
 )

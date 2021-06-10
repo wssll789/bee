@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	statestore "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/logging"
+	statestore "github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 var (

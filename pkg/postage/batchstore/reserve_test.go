@@ -14,13 +14,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/postage/batchstore"
-	postagetest "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/statestore/leveldb"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/postage/batchstore"
+	postagetest "github.com/wssll789/bee/pkg/postage/testing"
+	"github.com/wssll789/bee/pkg/statestore/leveldb"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 // random advance on the blockchain

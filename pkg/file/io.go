@@ -12,7 +12,7 @@ import (
 
 	"io"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 // simpleReadCloser wraps a byte slice in a io.ReadCloser implementation.

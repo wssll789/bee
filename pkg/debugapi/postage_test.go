@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/postage/batchstore/mock"
+	"github.com/wssll789/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/wssll789/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/postage/batchstore/mock"
 )
 
 func TestReserveState(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/file/splitter/internal"
-	test "github.com/ethersphere/bee/pkg/file/testing"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/file/splitter/internal"
+	test "github.com/wssll789/bee/pkg/file/testing"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/storage/mock"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 var (

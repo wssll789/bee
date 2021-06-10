@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/settlement/swap/chequebook"
-	"github.com/ethersphere/bee/pkg/settlement/swap/swapprotocol/pb"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/p2p"
+	"github.com/wssll789/bee/pkg/p2p/protobuf"
+	"github.com/wssll789/bee/pkg/settlement/swap/chequebook"
+	"github.com/wssll789/bee/pkg/settlement/swap/swapprotocol/pb"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 const (

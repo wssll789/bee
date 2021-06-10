@@ -5,8 +5,8 @@
 package mock
 
 import (
-	"github.com/ethersphere/bee/pkg/resolver/client"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/resolver/client"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 // Ensure mock Client implements the Client interface.

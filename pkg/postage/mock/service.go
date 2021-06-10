@@ -7,7 +7,7 @@ package mock
 import (
 	"errors"
 
-	"github.com/ethersphere/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/postage"
 )
 
 type optionFunc func(*mockPostage)

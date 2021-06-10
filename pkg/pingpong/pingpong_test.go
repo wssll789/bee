@@ -13,14 +13,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/swarm"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/pkg/pingpong"
-	"github.com/ethersphere/bee/pkg/pingpong/pb"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/p2p"
+	"github.com/wssll789/bee/pkg/p2p/protobuf"
+	"github.com/wssll789/bee/pkg/p2p/streamtest"
+	"github.com/wssll789/bee/pkg/pingpong"
+	"github.com/wssll789/bee/pkg/pingpong/pb"
 )
 
 func TestPing(t *testing.T) {

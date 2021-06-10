@@ -9,10 +9,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/postage"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/crypto"
+	"github.com/wssll789/bee/pkg/postage"
+	postagetesting "github.com/wssll789/bee/pkg/postage/testing"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 // TestStamperStamping tests if the stamp created by the stamper is valid.

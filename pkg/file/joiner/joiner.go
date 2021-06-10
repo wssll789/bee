@@ -13,10 +13,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethersphere/bee/pkg/encryption/store"
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/encryption/store"
+	"github.com/wssll789/bee/pkg/file"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/swarm"
 	"golang.org/x/sync/errgroup"
 )
 

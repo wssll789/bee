@@ -7,8 +7,8 @@ package addresses
 import (
 	"context"
 
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 type addressesGetterStore struct {

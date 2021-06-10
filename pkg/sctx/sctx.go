@@ -13,8 +13,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethersphere/bee/pkg/pss"
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/wssll789/bee/pkg/pss"
+	"github.com/wssll789/bee/pkg/tags"
 )
 
 var (

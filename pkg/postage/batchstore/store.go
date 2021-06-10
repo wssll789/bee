@@ -11,8 +11,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/storage"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/postage"
-	storemock "github.com/ethersphere/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/postage"
+	storemock "github.com/wssll789/bee/pkg/statestore/mock"
 )
 
 // TestSaveLoad tests the idempotence of saving and loading the postage.Service

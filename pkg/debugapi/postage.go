@@ -7,7 +7,7 @@ package debugapi
 import (
 	"net/http"
 
-	"github.com/ethersphere/bee/pkg/jsonhttp"
+	"github.com/wssll789/bee/pkg/jsonhttp"
 )
 
 func (s *Service) reserveStateHandler(w http.ResponseWriter, _ *http.Request) {

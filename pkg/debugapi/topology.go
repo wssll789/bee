@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/ethersphere/bee/pkg/jsonhttp"
+	"github.com/wssll789/bee/pkg/jsonhttp"
 )
 
 func (s *Service) topologyHandler(w http.ResponseWriter, r *http.Request) {

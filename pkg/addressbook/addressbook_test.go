@@ -7,11 +7,11 @@ package addressbook_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/addressbook"
-	"github.com/ethersphere/bee/pkg/bzz"
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/addressbook"
+	"github.com/wssll789/bee/pkg/bzz"
+	"github.com/wssll789/bee/pkg/crypto"
+	"github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/swarm"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

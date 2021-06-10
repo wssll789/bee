@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 // StampIssuer is a local extension of a batch issuing stamps for uploads.

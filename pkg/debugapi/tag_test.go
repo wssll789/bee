@@ -11,15 +11,15 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/debugapi"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/logging"
-	statestore "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	testingc "github.com/ethersphere/bee/pkg/storage/testing"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/wssll789/bee/pkg/debugapi"
+	"github.com/wssll789/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/wssll789/bee/pkg/logging"
+	statestore "github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/storage/mock"
+	testingc "github.com/wssll789/bee/pkg/storage/testing"
+	"github.com/wssll789/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/tags"
 )
 
 func tagsWithIdResource(id uint32) string { return fmt.Sprintf("/tags/%d", id) }

@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/crypto/eip712"
-	signermock "github.com/ethersphere/bee/pkg/crypto/mock"
-	"github.com/ethersphere/bee/pkg/settlement/swap/chequebook"
+	"github.com/wssll789/bee/pkg/crypto"
+	"github.com/wssll789/bee/pkg/crypto/eip712"
+	signermock "github.com/wssll789/bee/pkg/crypto/mock"
+	"github.com/wssll789/bee/pkg/settlement/swap/chequebook"
 )
 
 func TestSignCheque(t *testing.T) {

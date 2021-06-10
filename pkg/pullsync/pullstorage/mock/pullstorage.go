@@ -8,9 +8,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethersphere/bee/pkg/pullsync/pullstorage"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/pullsync/pullstorage"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 var _ pullstorage.Storer = (*PullStorage)(nil)

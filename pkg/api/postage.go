@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/postage/postagecontract"
-	"github.com/ethersphere/bee/pkg/sctx"
+	"github.com/wssll789/bee/pkg/jsonhttp"
+	"github.com/wssll789/bee/pkg/postage/postagecontract"
+	"github.com/wssll789/bee/pkg/sctx"
 	"github.com/gorilla/mux"
 )
 

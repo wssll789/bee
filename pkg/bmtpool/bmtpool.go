@@ -7,8 +7,8 @@
 package bmtpool
 
 import (
-	"github.com/ethersphere/bee/pkg/bmt"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/bmt"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 const Capacity = 32

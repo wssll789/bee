@@ -13,7 +13,7 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/swarm"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -7,7 +7,7 @@ BEEKEEPER ?= $$($(GO) env GOPATH)/bin/beekeeper
 BEELOCAL_BRANCH ?= main
 
 COMMIT ?= "$(shell git describe --long --dirty --always --match "" || true)"
-LDFLAGS ?= -s -w -X github.com/ethersphere/bee.commit="$(COMMIT)"
+LDFLAGS ?= -s -w -X github.com/wssll789/bee.commit="$(COMMIT)"
 
 .PHONY: all
 all: build lint vet test-race binary

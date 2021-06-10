@@ -10,7 +10,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/postage"
 )
 
 // TestStampMarshalling tests the idempotence  of binary marshal/unmarshals for Stamps.

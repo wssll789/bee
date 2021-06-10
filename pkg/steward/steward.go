@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethersphere/bee/pkg/pushsync"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/traversal"
+	"github.com/wssll789/bee/pkg/pushsync"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/traversal"
 	"golang.org/x/sync/errgroup"
 )
 

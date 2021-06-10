@@ -5,8 +5,8 @@
 package encryption
 
 import (
-	"github.com/ethersphere/bee/pkg/encryption"
-	"github.com/ethersphere/bee/pkg/file/pipeline"
+	"github.com/wssll789/bee/pkg/encryption"
+	"github.com/wssll789/bee/pkg/file/pipeline"
 )
 
 type encryptionWriter struct {

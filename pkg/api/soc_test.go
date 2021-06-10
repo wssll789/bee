@@ -12,17 +12,17 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/api"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/postage"
-	mockpost "github.com/ethersphere/bee/pkg/postage/mock"
-	"github.com/ethersphere/bee/pkg/soc"
-	testingsoc "github.com/ethersphere/bee/pkg/soc/testing"
-	statestore "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/wssll789/bee/pkg/api"
+	"github.com/wssll789/bee/pkg/jsonhttp"
+	"github.com/wssll789/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/postage"
+	mockpost "github.com/wssll789/bee/pkg/postage/mock"
+	"github.com/wssll789/bee/pkg/soc"
+	testingsoc "github.com/wssll789/bee/pkg/soc/testing"
+	statestore "github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/storage/mock"
+	"github.com/wssll789/bee/pkg/tags"
 )
 
 func TestSOC(t *testing.T) {

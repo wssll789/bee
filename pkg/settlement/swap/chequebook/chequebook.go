@@ -13,10 +13,10 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/sctx"
-	"github.com/ethersphere/bee/pkg/settlement/swap/erc20"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/transaction"
+	"github.com/wssll789/bee/pkg/sctx"
+	"github.com/wssll789/bee/pkg/settlement/swap/erc20"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/transaction"
 	"github.com/ethersphere/go-sw3-abi/sw3abi"
 )
 

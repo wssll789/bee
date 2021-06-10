@@ -14,10 +14,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	postageMock "github.com/ethersphere/bee/pkg/postage/mock"
-	"github.com/ethersphere/bee/pkg/postage/postagecontract"
-	"github.com/ethersphere/bee/pkg/transaction"
-	transactionMock "github.com/ethersphere/bee/pkg/transaction/mock"
+	postageMock "github.com/wssll789/bee/pkg/postage/mock"
+	"github.com/wssll789/bee/pkg/postage/postagecontract"
+	"github.com/wssll789/bee/pkg/transaction"
+	transactionMock "github.com/wssll789/bee/pkg/transaction/mock"
 )
 
 func TestCreateBatch(t *testing.T) {

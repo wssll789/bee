@@ -11,7 +11,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 var (

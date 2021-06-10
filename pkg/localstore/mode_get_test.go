@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/shed"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/shed"
+	"github.com/wssll789/bee/pkg/storage"
 )
 
 // TestModeGetRequest validates ModeGetRequest index values on the provided DB.

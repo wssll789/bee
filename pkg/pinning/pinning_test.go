@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/pkg/pinning"
-	statestorem "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/storage"
-	storagem "github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/traversal"
+	"github.com/wssll789/bee/pkg/file/pipeline/builder"
+	"github.com/wssll789/bee/pkg/pinning"
+	statestorem "github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/storage"
+	storagem "github.com/wssll789/bee/pkg/storage/mock"
+	"github.com/wssll789/bee/pkg/traversal"
 )
 
 func TestPinningService(t *testing.T) {

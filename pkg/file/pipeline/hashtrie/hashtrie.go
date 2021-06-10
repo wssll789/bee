@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/ethersphere/bee/pkg/file/pipeline"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/file/pipeline"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 var (

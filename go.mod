@@ -1,4 +1,4 @@
-module github.com/ethersphere/bee
+module github.com/wssll789/bee
 
 go 1.15
 

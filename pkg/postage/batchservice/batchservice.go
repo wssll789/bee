@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/storage"
 )
 
 const dirtyDBKey = "batchservice_dirty_db"

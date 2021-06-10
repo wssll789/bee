@@ -32,8 +32,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 // ErrBatchNotFound is returned when the postage batch is not found or expired

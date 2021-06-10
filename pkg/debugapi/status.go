@@ -7,8 +7,8 @@ package debugapi
 import (
 	"net/http"
 
-	"github.com/ethersphere/bee"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
+	"github.com/wssll789/bee"
+	"github.com/wssll789/bee/pkg/jsonhttp"
 )
 
 type statusResponse struct {

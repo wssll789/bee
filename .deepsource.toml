@@ -7,7 +7,7 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_path = "github.com/ethersphere/bee"
+  import_path = "github.com/wssll789/bee"
 
 [[analyzers]]
 name = "test-coverage"

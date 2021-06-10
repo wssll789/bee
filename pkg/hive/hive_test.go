@@ -18,17 +18,17 @@ import (
 
 	ma "github.com/multiformats/go-multiaddr"
 
-	ab "github.com/ethersphere/bee/pkg/addressbook"
-	"github.com/ethersphere/bee/pkg/bzz"
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/hive"
-	"github.com/ethersphere/bee/pkg/hive/pb"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/swarm/test"
+	ab "github.com/wssll789/bee/pkg/addressbook"
+	"github.com/wssll789/bee/pkg/bzz"
+	"github.com/wssll789/bee/pkg/crypto"
+	"github.com/wssll789/bee/pkg/hive"
+	"github.com/wssll789/bee/pkg/hive/pb"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/p2p/protobuf"
+	"github.com/wssll789/bee/pkg/p2p/streamtest"
+	"github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/swarm/test"
 )
 
 func TestHandlerRateLimit(t *testing.T) {

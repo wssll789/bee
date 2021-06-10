@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/file"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 var (

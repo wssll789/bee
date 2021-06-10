@@ -7,8 +7,8 @@ package bzz_test
 import (
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/bzz"
-	"github.com/ethersphere/bee/pkg/crypto"
+	"github.com/wssll789/bee/pkg/bzz"
+	"github.com/wssll789/bee/pkg/crypto"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

@@ -5,9 +5,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/storage/mock"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 func TestMockStorer(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/file/joiner"
-	"github.com/ethersphere/bee/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/file"
+	"github.com/wssll789/bee/pkg/file/joiner"
+	"github.com/wssll789/bee/pkg/file/pipeline/builder"
+	"github.com/wssll789/bee/pkg/storage"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 type PutGetter interface {

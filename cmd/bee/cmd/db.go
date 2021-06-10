@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethersphere/bee/pkg/localstore"
+	"github.com/wssll789/bee/pkg/localstore"
 	"github.com/spf13/cobra"
 )
 

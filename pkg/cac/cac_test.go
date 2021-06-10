@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/cac"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/cac"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 func TestNewCAC(t *testing.T) {

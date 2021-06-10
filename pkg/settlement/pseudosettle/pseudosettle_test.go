@@ -13,15 +13,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	mockp2p "github.com/ethersphere/bee/pkg/p2p/mock"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/pkg/settlement/pseudosettle"
-	"github.com/ethersphere/bee/pkg/settlement/pseudosettle/pb"
-	"github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/wssll789/bee/pkg/logging"
+	"github.com/wssll789/bee/pkg/p2p"
+	mockp2p "github.com/wssll789/bee/pkg/p2p/mock"
+	"github.com/wssll789/bee/pkg/p2p/protobuf"
+	"github.com/wssll789/bee/pkg/p2p/streamtest"
+	"github.com/wssll789/bee/pkg/settlement/pseudosettle"
+	"github.com/wssll789/bee/pkg/settlement/pseudosettle/pb"
+	"github.com/wssll789/bee/pkg/statestore/mock"
+	"github.com/wssll789/bee/pkg/swarm"
 )
 
 type testObserver struct {

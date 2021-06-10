@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethersphere/bee/pkg/postage"
+	"github.com/wssll789/bee/pkg/postage"
 )
 
 // ChainStateKey is the statestore key for the chain state.
