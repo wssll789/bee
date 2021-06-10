@@ -138,27 +138,38 @@ func decryptData(v keyCripto, password string) ([]byte, error) {
 	}
 
 	mac, err := hex.DecodeString(v.MAC)
+	fmt.Println("hex decode mac: %s", mac)
 	if err != nil {
 		return nil, fmt.Errorf("hex decode mac: %s", err)
 	}
 	cipherText, err := hex.DecodeString(v.CipherText)
+	fmt.Println("cipherText decode mac: %s", cipherText)
+
 	if err != nil {
 		return nil, fmt.Errorf("hex decode cipher text: %s", err)
 	}
 	derivedKey, err := getKDFKey(v, []byte(password))
+	fmt.Println("derivedKey decode mac: %s", derivedKey)
+
 	if err != nil {
 		return nil, err
 	}
 	calculatedMAC := sha3.Sum256(append(derivedKey[16:32], cipherText...))
+	fmt.Println("calculatedMAC decode mac: %s", calculatedMAC)
+
 	if !bytes.Equal(calculatedMAC[:], mac) {
 		return nil, keystore.ErrInvalidPassword
 	}
 
 	iv, err := hex.DecodeString(v.CipherParams.IV)
+	fmt.Println("iv decode mac: %s", iv)
+
 	if err != nil {
 		return nil, fmt.Errorf("hex decode IV cipher parameter: %s", err)
 	}
 	data, err := aesCTRXOR(derivedKey[:16], cipherText, iv)
+	fmt.Println("data decode mac: %s", data)
+
 	if err != nil {
 		return nil, err
 	}
